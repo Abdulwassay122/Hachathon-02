@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from "next/image";
 
-export default function Item({type, name, catagory, color, price, picture}: { picture: any, type: string, name:string, price:string, color:string, catagory:string }) {
+export default function Item({type, name, catagory, color, price, picture}: { picture: string, type: string, name:string, price:string, color:string, catagory:string }) {
   return (
     <div className='w-[348px] h-[533px]'>
       <div>

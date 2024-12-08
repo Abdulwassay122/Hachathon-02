@@ -125,11 +125,11 @@ export default function Products() {
                 <p className='w-fit py-2 px-6 text-[12px] leading-[]  rounded-full border-solid border-[1px]'>Best Shoes</p>
                 <p className='w-fit py-2 px-6 text-[12px] leading-[]  rounded-full border-solid border-[1px]'>New Basketball Shoes</p>
                 <p className='w-fit py-2 px-6 text-[12px] leading-[]  rounded-full border-solid border-[1px]'>New Football Shoes</p>
-                <p className='w-fit py-2 px-6 text-[12px] leading-[]  rounded-full border-solid border-[1px]'>New Men's Shoes</p>
+                <p className='w-fit py-2 px-6 text-[12px] leading-[]  rounded-full border-solid border-[1px]'>New Men&apos;s Shoes</p>
                 <p className='w-fit py-2 px-6 text-[12px] leading-[]  rounded-full border-solid border-[1px]'>New Running Shoes</p>
-                <p className='w-fit py-2 px-6 text-[12px] leading-[]  rounded-full border-solid border-[1px]'>Best Men's Shoes</p>
+                <p className='w-fit py-2 px-6 text-[12px] leading-[]  rounded-full border-solid border-[1px]'>Best Men&apos;s Shoes</p>
                 <p className='w-fit py-2 px-6 text-[12px] leading-[]  rounded-full border-solid border-[1px]'>New Jordan Shoes</p>
-                <p className='w-fit py-2 px-6 text-[12px] leading-[]  rounded-full border-solid border-[1px]'>Best Women's Shoes</p>
+                <p className='w-fit py-2 px-6 text-[12px] leading-[]  rounded-full border-solid border-[1px]'>Best Women&apos;s Shoes</p>
                 <p className='w-fit py-2 px-6 text-[12px] leading-[]  rounded-full border-solid border-[1px]'>Best Training & Gym</p>
             </div>
         </div>

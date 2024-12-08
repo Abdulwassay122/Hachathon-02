@@ -19,7 +19,7 @@ export default function Login() {
                     <span className='flex items-center gap-4'><input className='h-5 w-5'  type="checkbox" /><label className='text-[12px] leading-3' htmlFor="input">Keep me signed in</label></span>
                     <p className='text-[12px] text-[#BCBCBC] hover:underline'>Forgotten your password?</p>
                 </div>
-                <p className='text-[12px] leading-4 text-center w-[270px] text-[#8D8D8D]'>By logging in, you agree to Nike's <span className='underline'>Privacy Policy</span> and <span className='underline'>Terms of Use</span>.</p>
+                <p className='text-[12px] leading-4 text-center w-[270px] text-[#8D8D8D]'>By logging in, you agree to Nike&apos;s <span className='underline'>Privacy Policy</span> and <span className='underline'>Terms of Use</span>.</p>
                 <button className='h-10 text-white text-[11px] leading-4 text-center bg-black w-full rounded-[3px]'>SIGN IN</button>
                 <p className='text-[12px] leading-4 text-center w-[270px] text-[#8D8D8D]'>Not a Member? .<span className='text-black underline'>Join Us</span></p>
             </div>

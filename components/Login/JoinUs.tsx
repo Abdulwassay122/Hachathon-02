@@ -32,7 +32,7 @@ export default function JoinUs() {
             <div className='flex justify-between items-center w-full'>
                 <span className='flex items-center gap-4'><input className='h-5 w-5'  type="checkbox" /><label className='text-[12px] leading-3 text-[#8D8D8D] w-[250px]' htmlFor="input">Sign up for emails to get updates from Nike on products, offers and your Member benefits</label></span>
             </div>
-            <p className='text-[12px] leading-4 text-center w-[270px] text-[#8D8D8D]'>By creating an account, you agree to Nike's <span className='underline'>Privacy Policy</span> and <span className='underline'>Terms of Use</span>.</p>
+            <p className='text-[12px] leading-4 text-center w-[270px] text-[#8D8D8D]'>By creating an account, you agree to Nike&apos;s <span className='underline'>Privacy Policy</span> and <span className='underline'>Terms of Use</span>.</p>
             <button className='h-10 text-white text-[11px] leading-4 text-center bg-black w-full rounded-[3px]'>JOIN US</button>
             <p className='text-[12px] leading-4 text-center w-[270px] text-[#8D8D8D]'>Already a Member? <span className='text-black underline'>Sign In.</span></p>
         </div>  
