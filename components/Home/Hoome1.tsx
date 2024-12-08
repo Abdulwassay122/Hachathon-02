@@ -16,9 +16,9 @@ export default function Hoome1() {
         <div className=' flex flex-col gap-6 items-center'>
             <div className='flex flex-col gap-1'>
             <p className='text-[15px] leading-6 text-center font-[500] '>First Look</p>
-            <h1 className='text-[56px] leading-[60px] font-[600] text-center'>Nike Air Max Pulse</h1>
+            <h1 className='sm:text-[56px] text-[36px] leading-[60px] font-[600] text-center'>Nike Air Max Pulse</h1>
             </div>
-            <p className='text-[15px] leading-6 text-center font-[400] w-[511px]'>Extreme comfort. Hyper durable. Max volume. Introducing the Air Max Pulse
+            <p className='text-[15px] leading-6 text-center font-[400] w-[360px]'>Extreme comfort. Hyper durable. Max volume. Introducing the Air Max Pulse
             —designed to push you past your limits and help you go to the max.</p>
             <div className='flex gap-2'>
                 <button className='bg-black rounded-full text-white text-[15px] leading-6 text-center font-[500] w-[110px] h-[39px]'>Notify Me</button>

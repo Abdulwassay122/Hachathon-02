@@ -8,9 +8,9 @@ export default function Hoome4() {
   return (
     <section className='px-12 flex flex-col gap-[25px]'>
         <h2 className='text-[23px] leading-7 font-[500]'>Gear Up</h2>
-        <div className='flex justify-between'>
+        <div className='flex 1284:flex-row flex-col  justify-between'>
         {/* Men Items list */}
-        <div className='flex flex-col gap-3 items-end'>
+        <div className='flex flex-col gap-3  1284:items-end items-center'>
             {/* top button */}
             <div className='flex gap-3 items-center mr-12'>
                 <p className='text-[15px] leading-6 font-[500]'>Shop Men&quot;s</p>
@@ -22,7 +22,7 @@ export default function Hoome4() {
                 </button>
             </div>
             {/* items list */}
-            <div className='flex pl-12 pr-[6px] gap-3 pb-14'>
+            <div className='flex 1400:pl-12 sm:flex-row flex-col pr-[6px] gap-3 pb-14'>
                 {/* item 01 */}
                 <div className='w-[300px] h-[393px] flex flex-col gap-[21px]'>
                     <Image src={image} alt="" />
@@ -48,7 +48,7 @@ export default function Hoome4() {
             </div>
         </div>
         {/* woMen Items list */}
-        <div className='flex flex-col gap-3 items-end'>
+        <div className='flex flex-col gap-3 1284:items-end items-center'>
             {/* top button */}
             <div className='flex gap-3 items-center mr-12'>
                 <p className='text-[15px] leading-6 font-[500]'>Shop Women&quot;s</p>
@@ -60,7 +60,7 @@ export default function Hoome4() {
                 </button>
             </div>
             {/* items list */}
-            <div className='flex pl-12 pr-[6px] gap-3 pb-14'>
+            <div className='flex 1400:pl-12 sm:flex-row flex-col  pr-[6px] gap-3 pb-14'>
                 {/* item 01 */}
                 <div className='w-[300px] h-[393px] flex flex-col gap-[21px]'>
                     <Image src={image} alt="" />

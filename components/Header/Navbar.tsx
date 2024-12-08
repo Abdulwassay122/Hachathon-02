@@ -25,12 +25,12 @@ export default function Navbar() {
             </ul>
         </nav>
       </div>
-      <div className='w-full h-[60px] flex items-center px-10 ga10 justify-between'>
+      <div className='w-full h-[60px] flex items-center px-10 gap-10 justify-between'>
         <Link href="/"><Image className='mx-2' src={nike} alt="" /></Link>
-        <div className='w-[1211px] h-full flex items-center justify-end gap-60'>
+        <div className='lg:w-[1211px] h-full flex items-center justify-end gap-60'>
             <div className='flex items-center xl:w-[890px] gap-10 justify-between'>
-            <nav>
-                <ul className='flex text-[16px] leading-6 font-[500] gap-7'>
+            <nav className='md:block hidden'>
+                <ul className=' text-[16px] leading-6 font-[500] gap-7 flex '>
                     <Link href="/products"><li>News & Featured</li></Link>
                     <Link href="/products"><li>Men</li></Link>
                     <Link href="/products"><li>Women</li></Link>
@@ -39,7 +39,7 @@ export default function Navbar() {
                     <Link href="/products"><li>SNKRS</li></Link>
                 </ul>
             </nav>
-            <div className='relative'>
+            <div className='relative lg:block hidden'>
                 <input className='bg-[#F5F5F5] w-[180px] pl-10 h-10 rounded-full text-[#CCCCCC]' placeholder='Search' type="text" />
                 <Image className='absolute left-2 top-2 ' src={search} alt="" />
             </div>
@@ -50,6 +50,10 @@ export default function Navbar() {
             <div className='h-9 w-9 flex justify-center items-center'><Link href="/cart"><Image src={cart} alt="" /></Link></div>
         </div>
       </div>
+        <div className='relative mx-10 lg:hidden block mb-4'>
+                <input className='bg-[#F5F5F5] w-full pl-10 h-10 rounded-full text-[#CCCCCC]' placeholder='Search' type="text" />
+                <Image className='absolute left-2 top-2 ' src={search} alt="" />
+            </div>
     </header>
   )
 }
