@@ -47,9 +47,9 @@ export default function Hoome6() {
                 <p className='text-[15px] leading-6 font-[500]'>Kids'</p>
                 <div className='flex flex-col gap-3'>
                     <p className='text-[15px] leading-6 font-[500] text-[#757575]'>Infant & Toddler Shoes</p>
-                    <p className='text-[15px] leading-6 font-[500] text-[#757575]'>Kids' Shoes</p>
-                    <p className='text-[15px] leading-6 font-[500] text-[#757575]'>Kids' Jordan Shoes</p>
-                    <p className='text-[15px] leading-6 font-[500] text-[#757575]'>Kids' Basketball Shoes</p>
+                    <p className='text-[15px] leading-6 font-[500] text-[#757575]'>Kid&quot;s Shoes</p>
+                    <p className='text-[15px] leading-6 font-[500] text-[#757575]'>Kid&quot;s Jordan Shoes</p>
+                    <p className='text-[15px] leading-6 font-[500] text-[#757575]'>Kid&quot;s Basketball Shoes</p>
                 </div>
             </div>
         </div>

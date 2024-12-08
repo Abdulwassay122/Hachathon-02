@@ -37,7 +37,7 @@ export default function Checkout() {
             <div className='flex flex-col gap-6 pb-[100px]'>
                 <div className=' flex flex-col gap-3'>
                     <h3 className='text-[21px] leading-6'>How would you like to get your order?</h3>
-                    <p className='text-[15px] text-[#757575] w-[427px] leading-6'>Customs regulation for India require a copy of the recipient's KYC. The address on the KYC needs to match the shipping address. Our courier will contact you via SMS/email to obtain a copy of your KYC. The KYC will be stored securely and used solely for the purpose of clearing customs (including sharing it with customs officials) for all orders and returns. If your KYC does not match your shipping address, please click the link for more information. Learn More</p>
+                    <p className='text-[15px] text-[#757575] w-[427px] leading-6'>Customs regulation for India require a copy of the recipient&quot;s KYC. The address on the KYC needs to match the shipping address. Our courier will contact you via SMS/email to obtain a copy of your KYC. The KYC will be stored securely and used solely for the purpose of clearing customs (including sharing it with customs officials) for all orders and returns. If your KYC does not match your shipping address, please click the link for more information. Learn More</p>
                 </div>
                 <div className='flex items-center relative'>
                     <input className='w-[440px] border-2 border-solid rounded-xl border-black h-[82px] text-[15px] px-[69px] py-[29px] leading-6' placeholder='Deliver It' type="text" />
@@ -67,7 +67,7 @@ export default function Checkout() {
                         <span className='flex gap-3 items-center'><input className='h-[18px] w-[18px]' type="checkbox" /><label className='text-[15px] leading-6 text-[#111111]' htmlFor="input">Make this my preferred address</label></span>
                     </div>
                     <div>
-                        <h4 className='text-[21px] leading-6 font-[500] my-5 '>What's your contact information?</h4>
+                        <h4 className='text-[21px] leading-6 font-[500] my-5 '>What&quot;s your contact information?</h4>
                         <div className=''>
                         <input className='w-[440px] h-[56px] pl-4 text-black rounded-[4px] text-[16px] leading-6 border-[1px] border-solid' type="text" placeholder='Email' />
                         <p className='text-[11px] text-[#757575] pl-4 leading-6'>A confirmation email will be sent after checkout.</p>
@@ -78,7 +78,7 @@ export default function Checkout() {
                         </div>
                     </div>
                     <div>
-                        <h4 className='text-[21px] leading-6 font-[500] my-5 '>What's your PAN?</h4>
+                        <h4 className='text-[21px] leading-6 font-[500] my-5 '>What&quot;s your PAN?</h4>
                         <div className=''>
                         <input className='w-[440px] h-[56px] pl-4 text-black rounded-[4px] text-[16px] leading-6 border-[1px] border-solid' type="text" placeholder='PAN' />
                         <p className='text-[11px] text-[#757575] pl-4 leading-6 w-[376px]'>Enter your PAN to enable payment with UPI, Net Banking or local card methods</p>
@@ -123,7 +123,7 @@ export default function Checkout() {
                         <div className='h-[208px] flex gap-3'>
                             <Image src={pic1} alt="" />
                             <div className=''>
-                                <p className='text-[13px] text-[#111111] leading-6'>Nike Dri-FIT ADV TechKnit Ultra Men's Short-Sleeve Running Top</p>
+                                <p className='text-[13px] text-[#111111] leading-6'>Nike Dri-FIT ADV TechKnit Ultra Men&quot;s Short-Sleeve Running Top</p>
                                 <p className='text-[13px] text-[#8D8D8D] leading-6'>Qty 1</p>
                                 <p className='text-[13px] text-[#8D8D8D] leading-6'>Size L</p>
                                 <p className='text-[13px] text-[#8D8D8D] leading-6'>₹ 3 895.00</p>
@@ -132,7 +132,7 @@ export default function Checkout() {
                         <div className='h-[208px] flex gap-3'>
                             <Image src={pic2} alt="" />
                             <div className=''>
-                                <p className='text-[13px] text-[#111111] leading-6'>Nike Dri-FIT ADV TechKnit Ultra Men's Short-Sleeve Running Top</p>
+                                <p className='text-[13px] text-[#111111] leading-6'>Nike Dri-FIT ADV TechKnit Ultra Men&quot;s Short-Sleeve Running Top</p>
                                 <p className='text-[13px] text-[#8D8D8D] leading-6'>Qty 1</p>
                                 <p className='text-[13px] text-[#8D8D8D] leading-6'>Size L</p>
                                 <p className='text-[13px] text-[#8D8D8D] leading-6'>₹ 3 895.00</p>

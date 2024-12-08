@@ -23,7 +23,7 @@ export default function Cart() {
                     <div className='flex gap-4 justify-between w-[537px] pt-2'>
                       <div className=''>
                           <p className='text-[15px] leading-7'>Nike Dri-FIT ADV TechKnit Ultra</p>
-                          <p className='text-[15px] text-[#757575] leading-7'>Men's Short-Sleeve Running Top</p>
+                          <p className='text-[15px] text-[#757575] leading-7'>Men&quot;s Short-Sleeve Running Top</p>
                           <p className='text-[15px] text-[#757575] leading-7'>Ashen Slate/Cobalt Bliss</p>
                           <div className='flex gap-12'>
                           <div className='text-[15px] text-[#757575] leading-7'>Size <span className='ml-[10px]'>L</span></div>
@@ -44,7 +44,7 @@ export default function Cart() {
                     <div className='flex gap-4 justify-between w-[537px] pt-2'>
                       <div className=''>
                           <p className='text-[15px] leading-7'>Nike Air Max 97 SE</p>
-                          <p className='text-[15px] text-[#757575] leading-7'>Men's Shoes</p>
+                          <p className='text-[15px] text-[#757575] leading-7'>Men&quot;s Shoes</p>
                           <p className='text-[15px] text-[#757575] leading-7'>Flat Pewter/Light Bone/Black/White</p>
                           <div className='flex gap-12'>
                           <p className='text-[15px] text-[#757575] leading-7'>Size <span className='ml-[10px]'>8</span></p>

@@ -6,7 +6,7 @@ export default function Hoome5() {
   return (
     <section className='py-[84px] px-12 flex flex-col gap-12'>
       <div className='flex flex-col gap-6'>
-        <h2 className='text-[22px] leading-7 font-[500]'>Don't Miss</h2>
+        <h2 className='text-[22px] leading-7 font-[500]'>Don&quot;t Miss</h2>
         <Image src={image} alt="" />
       </div>
       <div className='flex flex-col gap-7 items-center'>

@@ -6,7 +6,6 @@ import arrowright from "./assets/Vector (9).svg";
 import image from "./assets/Image (2).svg";
 
 export default function Hoome2() {
-    const [isActive, setIsActive] = useState<string>('right')
   return (
     <section className='h-[604.36px] pl-12'>
         <div className='flex justify-between pr-12 items-center'>
@@ -33,7 +32,7 @@ export default function Hoome2() {
                         <p className='text-[15px] leading-6 font-[500]'>Nike Air Max Pulse</p>
                         <p className='text-[15px] leading-6 font-[500]'>₹ 13 995</p>
                     </div>
-                    <p className='text-[15px] leading-6 font-[400] text-[#757575]'>Women's Shoes</p>
+                    <p className='text-[15px] leading-6 font-[400] text-[#757575]'>Women&quot;s Shoes</p>
                 </div>
             </div>
             {/* Item 02 */}
@@ -46,7 +45,7 @@ export default function Hoome2() {
                         <p className='text-[15px] leading-6 font-[500]'>Nike Air Max Pulse</p>
                         <p className='text-[15px] leading-6 font-[500]'>₹ 13 995</p>
                     </div>
-                    <p className='text-[15px] leading-6 font-[400] text-[#757575]'>Women's Shoes</p>
+                    <p className='text-[15px] leading-6 font-[400] text-[#757575]'>Women&quot;s Shoes</p>
                 </div>
             </div>
             {/* Item 03 */}
@@ -59,7 +58,7 @@ export default function Hoome2() {
                         <p className='text-[15px] leading-6 font-[500]'>Nike Air Max Pulse</p>
                         <p className='text-[15px] leading-6 font-[500]'>₹ 13 995</p>
                     </div>
-                    <p className='text-[15px] leading-6 font-[400] text-[#757575]'>Women's Shoes</p>
+                    <p className='text-[15px] leading-6 font-[400] text-[#757575]'>Women&quot;s Shoes</p>
                 </div>
             </div>
             {/* Item 04 */}
@@ -72,7 +71,7 @@ export default function Hoome2() {
                         <p className='text-[15px] leading-6 font-[500]'>Nike Air Max Pulse</p>
                         <p className='text-[15px] leading-6 font-[500]'>₹ 13 995</p>
                     </div>
-                    <p className='text-[15px] leading-6 font-[400] text-[#757575]'>Women's Shoes</p>
+                    <p className='text-[15px] leading-6 font-[400] text-[#757575]'>Women&quot;s Shoes</p>
                 </div>
             </div>
         </div>

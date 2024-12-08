@@ -27,11 +27,11 @@ export default function AboutUs() {
                         <p className='text-[15px] leading-7 text-[#111111] '>We want to make buying your favourite Nike shoes and gear online fast and easy, and we accept the following payment options:</p>
                         <div className='flex flex-col gap-4 pl-8'>
                         <p className='text-[#111111] text-[16px] leading-7'>Visa, Mastercard, Diners Club, Discover, American Express, Visa Electron, Maestro</p>
-                        <p className='text-[#111111] text-[15px] leading-7'>If you enter your PAN information at checkout, you'll be able to pay for your order with PayTM or a local credit or debit card.</p>
+                        <p className='text-[#111111] text-[15px] leading-7'>If you enter your PAN information at checkout, you&quot;ll be able to pay for your order with PayTM or a local credit or debit card.</p>
                         <p className='text-[#111111] text-[16px] leading-7'>Apple Pay</p>
                         </div>
                         <div className='flex flex-col gap-4'>
-                            <p className='text-[16px] leading-7 font-[500] text-[#111111] w-[923px]'><span className='text-black undeline'>Nike Members</span> can store multiple debit or credit cards in their profile for faster checkout. If you're not already a Member, join us today.</p>        
+                            <p className='text-[16px] leading-7 font-[500] text-[#111111] w-[923px]'><span className='text-black undeline'>Nike Members</span> can store multiple debit or credit cards in their profile for faster checkout. If you&quot;re not already a Member, join us today.</p>        
                             <div className='flex gap-4'>
                                 <button className='text-[16px] leading-6 bg-black text-white w-[106px] h-10 rounded-full'>JOIN US</button>
                                 <button className='text-[16px] leading-6 bg-black text-white w-[106px] h-10 rounded-full'>SHOP NIKE</button>
@@ -50,8 +50,8 @@ export default function AboutUs() {
                     <div><p className='text-[16px] leading-7 text-[#111111] w-[553px]'><p className=' text-[16px] leading-7 text-black font-bold'>What payment method is accepted for SNKRS orders?</p>
                     You can use any accepted credit card to pay for your SNKRS order.</p>
                     </div>
-                    <div><p className='text-[16px] leading-7 text-[#111111] w-[922px]'><p className=' text-[16px] leading-7 text-black font-bold'>Why don't I see Apple Pay as an option?</p>
-                    To see Apple Pay as an option in the Nike App or on Nike.com, you'll need to use a compatible Apple device running the latest OS, be signed in to your iCloud account and have a supported card in your Wallet. Additionally, you'll need to use Safari to use Apple Pay on Nike.com.</p>
+                    <div><p className='text-[16px] leading-7 text-[#111111] w-[922px]'><p className=' text-[16px] leading-7 text-black font-bold'>Why don&quot;t I see Apple Pay as an option?</p>
+                    To see Apple Pay as an option in the Nike App or on Nike.com, you&quot;ll need to use a compatible Apple device running the latest OS, be signed in to your iCloud account and have a supported card in your Wallet. Additionally, you&quot;ll need to use Safari to use Apple Pay on Nike.com.</p>
                     </div>
                     <div className='flex flex-col gap-[6px]'>
                         <p className='text-[16px] leading-7 text-[#111111]'>Was this answer helpful?</p>
@@ -63,7 +63,7 @@ export default function AboutUs() {
                     <div className='flex flex-col gap-5'>
                         <p className='text-[#757575] text-[16px] leading-6'>RELATED</p>
                         <div className='pl-4 flex flex-col gap-6'>
-                            <p className='text-[16px] leading-7 text-[#111111] underline font-[500]'>WHAT ARE NIKE'S DELIVERY OPTIONS?</p>
+                            <p className='text-[16px] leading-7 text-[#111111] underline font-[500]'>WHAT ARE NIKE&quot;S DELIVERY OPTIONS?</p>
                             <p className='text-[16px] leading-7 text-[#111111] underline font-[500]'>HOW DO I GET FREE DELIVERY ON NIKE ORDERS?</p>
                         </div>
                     </div>
@@ -96,7 +96,7 @@ export default function AboutUs() {
                     <div className="flex flex-col gap-9 items-center">
                         <Image src={mail} alt="" />
                         <div>
-                            <p className='text-[16px] leading-6 text-center text-[#111111]'>We'll reply within</p>
+                            <p className='text-[16px] leading-6 text-center text-[#111111]'>We&quot;ll reply within</p>
                             <p className='text-[16px] leading-6 text-center text-[#111111]'>five business days</p>
                         </div>
                     </div>

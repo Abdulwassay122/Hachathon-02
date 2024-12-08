@@ -13,7 +13,7 @@ export default function Hoome4() {
         <div className='flex flex-col gap-3 items-end'>
             {/* top button */}
             <div className='flex gap-3 items-center mr-12'>
-                <p className='text-[15px] leading-6 font-[500]'>Shop Men's</p>
+                <p className='text-[15px] leading-6 font-[500]'>Shop Men&quot;s</p>
                 <button className='h-12 w-12 flex justify-center items-center rounded-full bg-[#F5F5F5]'>
                     <Image src={arrowleft} alt="" />
                 </button>
@@ -31,7 +31,7 @@ export default function Hoome4() {
                             <p className='text-[15px] leading-6 font-[500]'>Nike Dri-FIT ADV TechKnit Ultra</p>
                             <p className='text-[15px] leading-6 font-[500]'>₹ 3 895</p>
                         </div>
-                        <p className='text-[15px] leading-6 font-[400] text-[#757575] w-[180px]'>Men's Short-Sleeve Running Top</p>
+                        <p className='text-[15px] leading-6 font-[400] text-[#757575] w-[180px]'>Men&quot;s Short-Sleeve Running Top</p>
                     </div>
                 </div>
                 {/* item 01 */}
@@ -42,7 +42,7 @@ export default function Hoome4() {
                             <p className='text-[15px] leading-6 font-[500]'>Nike Dri-FIT ADV TechKnit Ultra</p>
                             <p className='text-[15px] leading-6 font-[500]'>₹ 3 895</p>
                         </div>
-                        <p className='text-[15px] leading-6 font-[400] text-[#757575] w-[180px]'>Men's Short-Sleeve Running Top</p>
+                        <p className='text-[15px] leading-6 font-[400] text-[#757575] w-[180px]'>Men&quot;s Short-Sleeve Running Top</p>
                     </div>
                 </div>
             </div>
@@ -51,7 +51,7 @@ export default function Hoome4() {
         <div className='flex flex-col gap-3 items-end'>
             {/* top button */}
             <div className='flex gap-3 items-center mr-12'>
-                <p className='text-[15px] leading-6 font-[500]'>Shop Women's</p>
+                <p className='text-[15px] leading-6 font-[500]'>Shop Women&quot;s</p>
                 <button className='h-12 w-12 flex justify-center items-center rounded-full bg-[#F5F5F5]'>
                     <Image src={arrowleft} alt="" />
                 </button>
@@ -80,7 +80,7 @@ export default function Hoome4() {
                             <p className='text-[15px] leading-6 font-[500]'>Nike Dri-FIT ADV TechKnit Ultra</p>
                             <p className='text-[15px] leading-6 font-[500]'>₹ 3 895</p>
                         </div>
-                        <p className='text-[15px] leading-6 font-[400] text-[#757575] w-[180px]'>Men's Short-Sleeve Running Top</p>
+                        <p className='text-[15px] leading-6 font-[400] text-[#757575] w-[180px]'>Men&quot;s Short-Sleeve Running Top</p>
                     </div>
                 </div>
             </div>
