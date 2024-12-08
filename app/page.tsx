@@ -8,8 +8,8 @@ export default function Home() {
   return (
     <>
       <Navbar/>
-      <Hoome/>
-      <Footer/>
+      {/* <Hoome/>
+      <Footer/> */}
     </>
   );
 }

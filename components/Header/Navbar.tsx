@@ -28,7 +28,7 @@ export default function Navbar() {
       <div className='w-full h-[60px] flex items-center px-10 ga10 justify-between'>
         <Link href="/"><Image className='mx-2' src={nike} alt="" /></Link>
         <div className='w-[1211px] h-full flex items-center justify-end gap-60'>
-            <div className='flex items-center w-[890px] justify-between'>
+            <div className='flex items-center xl:w-[890px] gap-10 justify-between'>
             <nav>
                 <ul className='flex text-[16px] leading-6 font-[500] gap-7'>
                     <Link href="/products"><li>News & Featured</li></Link>
