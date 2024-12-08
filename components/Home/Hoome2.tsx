@@ -1,5 +1,5 @@
 "use client"
-import React, { useState } from 'react'
+import React from 'react'
 import Image from "next/image";
 import arrowleft from "./assets/Vector (8).svg";
 import arrowright from "./assets/Vector (9).svg";

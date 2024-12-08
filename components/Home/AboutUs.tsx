@@ -46,7 +46,7 @@ export default function AboutUs() {
                             <p className='text-[16px] leading-7 text-[#111111]'>Please note, some banks may charge <span className='text-black underline'>a small transaction fee</span> for international orders.</p>
                     </div> 
                     <p className='text-[16px] leading-7 text-[#111111] w-[553px]'><p className= 'text-[16px] leading-7 text-black font-bold'>Can I pay for my order with multiple methods?</p>
-                    No, payment for Nike orders can't be split between multiple payment methods.</p>
+                    No, payment for Nike orders can&quot;t be split between multiple payment methods.</p>
                     <div><p className='text-[16px] leading-7 text-[#111111] w-[553px]'><p className=' text-[16px] leading-7 text-black font-bold'>What payment method is accepted for SNKRS orders?</p>
                     You can use any accepted credit card to pay for your SNKRS order.</p>
                     </div>

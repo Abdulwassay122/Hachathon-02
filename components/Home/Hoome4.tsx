@@ -69,7 +69,7 @@ export default function Hoome4() {
                             <p className='text-[15px] leading-6 font-[500]'>Nike Dri-FIT ADV TechKnit Ultra</p>
                             <p className='text-[15px] leading-6 font-[500]'>₹ 3 895</p>
                         </div>
-                        <p className='text-[15px] leading-6 font-[400] text-[#757575] w-[180px]'>Men's Short-Sleeve Running Top</p>
+                        <p className='text-[15px] leading-6 font-[400] text-[#757575] w-[180px]'>Men&quot;s Short-Sleeve Running Top</p>
                     </div>
                 </div>
                 {/* item 01 */}
