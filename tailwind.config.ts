@@ -10,7 +10,11 @@ const config: Config = {
     extend: {
       screens:{
         "1400":"1400px",
-        "1284":"1284px"
+        "1284":"1284px",
+        "1320":"1320px",
+        "1160":"1160px",
+        "900":"900px",
+        "450":"490px",
       },
       colors: {
         background: "var(--background)",

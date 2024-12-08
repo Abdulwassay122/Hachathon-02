@@ -24,7 +24,7 @@ export default function Products() {
       }));
 
   return (
-    <section className='pt-[76px] px-12 flex flex-col gap-4'>
+    <section className='pt-[76px] 1400:px-12 sm:px-8 px-5 flex flex-col gap-4'>
         {/* header */}
         <div className='flex justify-between items-center'>
             <p className='text-[24px] leading-8 font-[500]'>New (500)</p>
@@ -41,7 +41,7 @@ export default function Products() {
         </div>
         <div className='flex'>
         {/* sidebar */}
-        <div className='w-[260px] h-full flex flex-col gap-10 pr-5'>
+        <div className='w-[260px] h-full  flex-col gap-10 pr-5 lg:flex hidden'>
             <div className='w-[192px] h-[400.72px] flex flex-col gap-[14.59px] overflow-y-auto'>
                 <p className='text-[15px] leading-[21.6px] font-[500]'>Shoes</p>
                 <p className='text-[15px] leading-[21.6px] font-[500]'>Sports Bras</p>
@@ -108,7 +108,7 @@ export default function Products() {
             </div>
         </div>
         {/* Products */}
-        <div className='grid grid-cols-3 gap-4 pb-[140px] border-b-[1px] border-solid'>
+        <div className='grid 1400:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 pb-[140px] border-b-[1px] border-solid'>
             {/* Product 01 */}
         <Item type='Just In' name="Nike Air Force 1 Mid '07" catagory="Men's Shoes" color="1 Colour" price="10 795.00" picture={pic}/>
             {/* Product 02 */}
@@ -118,7 +118,7 @@ export default function Products() {
         </div>
 
         </div>
-        <div className='py-16 flex flex-col gap-6 pl-[300px]'>
+        <div className='py-16 flex flex-col gap-6 xl:pl-[300px] lg:pl-[150px] md:pl-[50px] pl-8'>
             <h2 className='text-[19px] leading-6 font-[500]'>Related Categories</h2>
             <div className='flex gap-2 flex-wrap    '>
                 <p className='w-fit py-2 px-6 text-[12px] leading-[]  rounded-full border-solid border-[1px]'>Best Selling Products</p>

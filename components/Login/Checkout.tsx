@@ -33,11 +33,11 @@ export default function Checkout() {
             </div>
         </div>
         {/* body */}
-        <div className='flex gap-[120px] pl-[289px] pr-[242px] pb-[72px]'>
+        <div className='flex 1160:gap-[120px] gap-10 1400:pl-[289px] 1400:pr-[242px] lg:px-28 px-10 900:flex-row flex-col pb-[72px]'>
             <div className='flex flex-col gap-6 pb-[100px]'>
                 <div className=' flex flex-col gap-3'>
                     <h3 className='text-[21px] leading-6'>How would you like to get your order?</h3>
-                    <p className='text-[15px] text-[#757575] w-[427px] leading-6'>Customs regulation for India require a copy of the recipient&quot;s KYC. The address on the KYC needs to match the shipping address. Our courier will contact you via SMS/email to obtain a copy of your KYC. The KYC will be stored securely and used solely for the purpose of clearing customs (including sharing it with customs officials) for all orders and returns. If your KYC does not match your shipping address, please click the link for more information. Learn More</p>
+                    <p className='text-[15px] text-[#757575] 450:w-[427px] leading-6'>Customs regulation for India require a copy of the recipient&quot;s KYC. The address on the KYC needs to match the shipping address. Our courier will contact you via SMS/email to obtain a copy of your KYC. The KYC will be stored securely and used solely for the purpose of clearing customs (including sharing it with customs officials) for all orders and returns. If your KYC does not match your shipping address, please click the link for more information. Learn More</p>
                 </div>
                 <div className='flex items-center relative'>
                     <input className='w-[440px] border-2 border-solid rounded-xl border-black h-[82px] text-[15px] px-[69px] py-[29px] leading-6' placeholder='Deliver It' type="text" />
@@ -46,20 +46,20 @@ export default function Checkout() {
                 <div className=''>
                     <h3 className='text-[21px] my-5 leading-6 font-[500]'>Enter your name and address:</h3>
                     <div className='flex flex-col gap-8 pb-8'>
-                        <input className='w-[440px] h-[56px] pl-4 text-black rounded-[4px] text-[16px] leading-6 border-[1px] border-solid' type="text" placeholder='First Name' />
-                        <input className='w-[440px] h-[56px] pl-4 text-black rounded-[4px] text-[16px] leading-6 border-[1px] border-solid' type="text" placeholder='Last Name' />
-                        <input className='w-[440px] h-[56px] pl-4 text-black rounded-[4px] text-[16px] leading-6 border-[1px] border-solid' type="text" placeholder='Address Line 1' />
-                        <input className='w-[440px] h-[56px] pl-4 text-black rounded-[4px] text-[16px] leading-6 border-[1px] border-solid' type="text" placeholder='Address Line 2' />
-                        <input className='w-[440px] h-[56px] pl-4 text-black rounded-[4px] text-[16px] leading-6 border-[1px] border-solid' type="text" placeholder='Address Line 3' />
+                        <input className='450:w-[440px] h-[56px] pl-4 text-black rounded-[4px] text-[16px] leading-6 border-[1px] border-solid' type="text" placeholder='First Name' />
+                        <input className='450:w-[440px] h-[56px] pl-4 text-black rounded-[4px] text-[16px] leading-6 border-[1px] border-solid' type="text" placeholder='Last Name' />
+                        <input className='450:w-[440px] h-[56px] pl-4 text-black rounded-[4px] text-[16px] leading-6 border-[1px] border-solid' type="text" placeholder='Address Line 1' />
+                        <input className='450:w-[440px] h-[56px] pl-4 text-black rounded-[4px] text-[16px] leading-6 border-[1px] border-solid' type="text" placeholder='Address Line 2' />
+                        <input className='450:w-[440px] h-[56px] pl-4 text-black rounded-[4px] text-[16px] leading-6 border-[1px] border-solid' type="text" placeholder='Address Line 3' />
                         <span className='flex gap-4'>
-                        <input className='w-[211px] h-[56px] pl-4 text-black rounded-[4px] text-[16px] leading-6 border-[1px] border-solid' type="text" placeholder='Postal Code' />
-                        <input className='w-[211px] h-[56px] pl-4 text-black rounded-[4px] text-[16px] leading-6 border-[1px] border-solid' type="text" placeholder='Locality' />
+                        <input className='450:w-[211px]  w-full h-[56px] pl-4 text-black rounded-[4px] text-[16px] leading-6 border-[1px] border-solid' type="text" placeholder='Postal Code' />
+                        <input className='450:w-[211px] w-full  h-[56px] pl-4 text-black rounded-[4px] text-[16px] leading-6 border-[1px] border-solid' type="text" placeholder='Locality' />
                         </span>
                         <span className='flex gap-4'>
-                        <select className='w-[211px] h-[56px] text-[14px] text-[#8D8D8D] border-[1px] border-solid rounded-[4px] px-4 border-[#E5E5E5]' >
+                        <select className='450:w-[211px] w-full h-[56px] text-[14px] text-[#8D8D8D] border-[1px] border-solid rounded-[4px] px-4 border-[#E5E5E5]' >
                             <option defaultChecked value="India">State/Territory</option>
                         </select>                      
-                          <input className='w-[211px] h-[56px] pl-4 text-black rounded-[4px] text-[16px] leading-6 border-[1px] border-solid' type="text" placeholder='India' />
+                          <input className='450:w-[211px] w-full h-[56px] pl-4 text-black rounded-[4px] text-[16px] leading-6 border-[1px] border-solid' type="text" placeholder='India' />
                         </span>
                     </div>
                     <div className='flex flex-col gap-8'>
@@ -69,24 +69,24 @@ export default function Checkout() {
                     <div>
                         <h4 className='text-[21px] leading-6 font-[500] my-5 '>What&quot;s your contact information?</h4>
                         <div className=''>
-                        <input className='w-[440px] h-[56px] pl-4 text-black rounded-[4px] text-[16px] leading-6 border-[1px] border-solid' type="text" placeholder='Email' />
+                        <input className='450:w-[440px] w-full h-[56px] pl-4 text-black rounded-[4px] text-[16px] leading-6 border-[1px] border-solid' type="text" placeholder='Email' />
                         <p className='text-[11px] text-[#757575] pl-4 leading-6'>A confirmation email will be sent after checkout.</p>
                         </div>
                         <div className=''>
-                        <input className='w-[440px] h-[56px] pl-4 text-black rounded-[4px] text-[16px] leading-6 border-[1px] border-solid' type="text" placeholder='Phone Number' />
+                        <input className='450:w-[440px] w-full h-[56px] pl-4 text-black rounded-[4px] text-[16px] leading-6 border-[1px] border-solid' type="text" placeholder='Phone Number' />
                         <p className='text-[11px] text-[#757575] pl-4 leading-6'>A confirmation email will be sent after checkout.</p>
                         </div>
                     </div>
                     <div>
                         <h4 className='text-[21px] leading-6 font-[500] my-5 '>What&quot;s your PAN?</h4>
                         <div className=''>
-                        <input className='w-[440px] h-[56px] pl-4 text-black rounded-[4px] text-[16px] leading-6 border-[1px] border-solid' type="text" placeholder='PAN' />
-                        <p className='text-[11px] text-[#757575] pl-4 leading-6 w-[376px]'>Enter your PAN to enable payment with UPI, Net Banking or local card methods</p>
+                        <input className='450:w-[440px] w-full h-[56px] pl-4 text-black rounded-[4px] text-[16px] leading-6 border-[1px] border-solid' type="text" placeholder='PAN' />
+                        <p className='text-[11px] text-[#757575] pl-4 leading-6 450:w-[376px]'>Enter your PAN to enable payment with UPI, Net Banking or local card methods</p>
                         </div>
                         <span className='flex gap-3 items-center my-3'><input className='h-[18px] w-[18px]' type="checkbox" /><label className='text-[11px] leading-6 text-[#757575]' htmlFor="input">Save PAN details to Nike Profile</label></span>
                     </div>
-                        <span className='flex gap-3 my-14 '><input className='h-[18px] w-[18px]' type="checkbox" /><label className='text-[11px] leading-6 text-[#757575] w-[404px]' htmlFor="input">I have read and consent to eShopWorld processing my information in accordance with the Privacy Statement and Cookie Policy. eShopWorld is a trusted Nike partner.</label></span>
-                        <button className='w-[440px] h-[60px] bg-[#F5F5F5] rounded-full'>Continue</button>
+                        <span className='flex gap-3 my-14 '><input className='h-[18px] w-[18px]' type="checkbox" /><label className='text-[11px] leading-6 text-[#757575] 450:w-[404px]' htmlFor="input">I have read and consent to eShopWorld processing my information in accordance with the Privacy Statement and Cookie Policy. eShopWorld is a trusted Nike partner.</label></span>
+                        <button className='sm:w-[440px] w-[330px] h-[60px] bg-[#F5F5F5] rounded-full'>Continue</button>
                         <div className='flex flex-col gap-7 mt-7'>
                             <p className='text-[20px] leading-6 font-[500]'>Delivery</p>
                             <p className='text-[#757575] border-t-2 border-solid pt-5 text-[20px] leading-6 font-[500]'>Shipping</p>
@@ -143,7 +143,7 @@ export default function Checkout() {
             </div>
         </div>
         {/* footer */}
-        <div className='h-[51px] flex justify-between bg-[#111111] px-5'>
+        <div className='1160:h-[51px] h-full flex 1160:flex-row flex-col justify-between bg-[#111111] px-5'>
             <div className='flex items-center'>
                 <div className='flex gap-6 items-center'>
                     <div className='flex items-center gap-2'>
@@ -158,7 +158,7 @@ export default function Checkout() {
                     </div>
                 </div>
             </div>
-            <div className='flex gap-2'>
+            <div className='flex sm:flex-nowrap flex-wrap gap-2'>
                 <Image src={img1} alt="" />
                 <Image src={img2} alt="" />
                 <Image src={img3} alt="" />
