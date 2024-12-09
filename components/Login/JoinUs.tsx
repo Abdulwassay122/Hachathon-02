@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from "next/image";
 import nike from './assets/Image (6).svg'
+import Link from 'next/link';
 
 export default function JoinUs() {
   return (
@@ -34,7 +35,7 @@ export default function JoinUs() {
             </div>
             <p className='text-[12px] leading-4 text-center w-[270px] text-[#8D8D8D]'>By creating an account, you agree to Nike&apos;s <span className='underline'>Privacy Policy</span> and <span className='underline'>Terms of Use</span>.</p>
             <button className='h-10 text-white text-[11px] leading-4 text-center bg-black w-full rounded-[3px]'>JOIN US</button>
-            <p className='text-[12px] leading-4 text-center w-[270px] text-[#8D8D8D]'>Already a Member? <span className='text-black underline'>Sign In.</span></p>
+            <p className='text-[12px] leading-4 text-center w-[270px] text-[#8D8D8D]'>Already a Member? <span className='text-black underline'><Link href="/login">Sign In.</Link></span></p>
         </div>  
     </div>
 </section> 

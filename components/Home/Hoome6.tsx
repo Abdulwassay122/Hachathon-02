@@ -3,6 +3,7 @@ import Image from "next/image";
 import img1 from "./assets/Frame (3).svg";
 import img2 from "./assets/Frame (4).svg";
 import img3 from "./assets/Frame (5).svg";
+import Link from 'next/link';
 
 export default function Hoome6() {
   return (
@@ -10,9 +11,9 @@ export default function Hoome6() {
         <div className='flex flex-col gap-6 overflow-hidden'>
             <h3 className='text-[23px] leading-7 font-[500]'>The Essentials</h3>
             <div className='pl-[6px] flex gap-3 1400:overflow-visible overflow-x-auto justify-between'>
-                <Image src={img1} alt="" />
-                <Image src={img2} alt="" />
-                <Image src={img3} alt="" />
+                <Link href="/products"><Image src={img1} alt="" /></Link>
+                <Link href="/products"><Image src={img2} alt="" /></Link>
+                <Link href="/products"><Image src={img3} alt="" /></Link>
             </div>
         </div>
         <div className='sm:px-[232px] px-10 pb-[56px] flex lg:flex-row flex-col items-center justify-between'>

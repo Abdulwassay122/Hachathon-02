@@ -18,6 +18,7 @@ import img8 from './assets/Image (19).svg'
 import img9 from './assets/Image (20).svg'
 import img10 from './assets/Image (21).svg'
 import img11 from './assets/Image (22).svg'
+import Link from 'next/link';
 
 
 export default function Checkout() {
@@ -25,11 +26,11 @@ export default function Checkout() {
     <section className='font-inter'>
         {/* header */}
         <div className='pl-[91px] flex justify-between h-[72.8px] items-center'>
-            <Image src={nike} alt="" />
+            <Link href="/"><Image src={nike} alt="" /></Link>
             <div className='w-[249px] flex gap-10'>
                 <p className='text-[14px] leading-6 text-[#111111] mr-[6px]'>000 800 100 9538</p>
                 <Image src={inbox} alt="" />
-                <Image src={bag} alt="" />
+                <Link href="/cart"><Image src={bag} alt="" /></Link>
             </div>
         </div>
         {/* body */}
